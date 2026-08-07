@@ -1,5 +1,6 @@
 # MOOD
 DOOM을 기반으로 한 고전 스타일의 1인칭 슈팅게임. 개발자 3인으로 팀 프로젝트이며 저는 주로 로비씬 / 인게임 HUD 위주로 담당했습니다.
+### 다운로드: https://drive.google.com/file/d/17IaCUkIWS-PxgYuDGHfpnIfa2DphDSw5/view?usp=drive_link
 
 - 게임엔진: Unity 6000.3.10f1
 - 개발인원: 3인 개발팀
