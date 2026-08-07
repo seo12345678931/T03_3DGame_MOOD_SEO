@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4514996345948698036
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1787149027889950281, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: attackRange
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787149027889950281, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: attackDamage
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787149027889950281, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: attackCooldown
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1787149027889950281, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: deathAudioProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: d5d926349b7aa084b9b64b9fb461ba30,
+        type: 2}
+    - target: {fileID: 1787149027889950281, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: attackStartAudioProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: 38bdb12adbf6e9546b7d22b95dc68649,
+        type: 2}
+    - target: {fileID: 1832708025398682832, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895433308739289529, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110216393184058089, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3116276095106733882, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4341881151963913954, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.53877
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25008005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.0697
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846730692936322707, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055643694588264064, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_Name
+      value: Zombie_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206446731465372494, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6296524200275776949, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: destroyDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6296524200275776949, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: damageEffectPrefab
+      value: 
+      objectReference: {fileID: 733209293663125264, guid: fcd27e9b64f619746991b41c831fd719,
+        type: 3}
+    - target: {fileID: 6296524200275776949, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: damageEffectLifetime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053556177610342905, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_Speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053556177610342905, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_AngularSpeed
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053556177610342905, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_StoppingDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8195962160107206174, guid: 66e348839ba17d34ba9f6450813691eb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66e348839ba17d34ba9f6450813691eb, type: 3}

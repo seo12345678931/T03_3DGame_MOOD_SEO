@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7afb2db48ec4dfc4c96b9166ab8733c0, type: 3}
+  m_Name: Assult Rifle
+  m_EditorClassIdentifier: Assembly-CSharp::Mood.Weapons.WeaponData
+  displayName: "\uB77C\uC774\uD50C"
+  weaponPrefab: {fileID: 979674647423627156, guid: f15f9c3a55e005a468065f5dc2960ec0,
+    type: 3}
+  pickupPrefab: {fileID: 134048795815306532, guid: 2161ea5730152cf41a77f66d6466d76d,
+    type: 3}
+  weaponIcon: {fileID: 21300000, guid: f6badb310aa6b9945956d1b95b4297bb, type: 3}
+  automatic: 1
+  fireRate: 10
+  damage: 11
+  range: 60
+  impactForce: 10
+  surfaceImpactEffectPrefab: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980,
+    type: 3}
+  surfaceImpactEffectLifetime: 2
+  surfaceImpactEffectOffset: 0.002
+  bulletsPerShot: 1
+  spreadAngle: 0.5
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1047999
+  automaticReload: 1
+  ammoType: {fileID: 11400000, guid: 4a3568f7a90d4d89951e72d5d46edca5, type: 2}
+  magazineSize: 30
+  initialReserveAmmo: 60
+  reloadDuration: 1.6
+  useAnimationEventReload: 0
+  ammoPerReloadEvent: 1
+  animatorController: {fileID: 9100000, guid: db5f4d93582c65344b500e304f46d691, type: 2}
+  idleStateName: Idle
+  fireStateName: Fire
+  reloadStateName: Reload
+  reloadStartStateName: 
+  reloadLoopStateName: 
+  reloadEndStateName: 
+  pickupStateName: Pickup
+  reloadBoolParameter: Is Reloading
+  ammoParameter: Ammo
+  sprintAmountParameter: Sprint Amount
+  adsAmountParameter: ADS Amount
+  fireCrossFadeDuration: 0.03
+  reloadCrossFadeDuration: 0.08
+  pickupCrossFadeDuration: 0.08
+  viewLocalPosition: {x: 0.201, y: -1.336, z: -0.309}
+  viewLocalEulerAngles: {x: 0, y: 0, z: 0}
+  enableAim: 0
+  aimFieldOfView: 40
+  aimViewLocalPosition: {x: 0, y: 0, z: 0}
+  aimTransitionSpeed: 14
+  cameraVerticalRecoil: 0.7
+  cameraHorizontalRecoil: 0.4
+  cameraRecoilRecovery: 18
+  weaponKickPosition: {x: 0, y: 0, z: -0.06}
+  weaponKickRotation: {x: -3, y: 0.5, z: 0.5}
+  weaponRecoilReturnSpeed: 18
+  weaponRecoilSnappiness: 28
+  muzzleTransformName: Muzzle
+  ejectionPortTransformName: Ejection Port
+  fireSfx:
+    clips:
+    - {fileID: 8300000, guid: 17a098980af233a40b228f8efd653bf8, type: 3}
+    volume: 1
+    pitchRange: {x: 0.95, y: 1.05}
+  fireTailSfx:
+    clips:
+    - {fileID: 8300000, guid: 83b226e3527988f46a9486a1c9688b06, type: 3}
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  emptyMagazineSfx:
+    clips:
+    - {fileID: 0}
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  reloadStartSfx:
+    clips:
+    - {fileID: 8300000, guid: 7055fba010c30a1459281da17e242ab1, type: 3}
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  reloadInsertSfx:
+    clips: []
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  reloadEndSfx:
+    clips: []
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  equipSfx:
+    clips:
+    - {fileID: 8300000, guid: 0b366c60aea08034dafafc5e3c793693, type: 3}
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  grenadeThrowSfx:
+    clips: []
+    volume: 1
+    pitchRange: {x: 1, y: 1}
+  fireAudioProfile: {fileID: 11400000, guid: 32a2f80fb0c67e64081a8e973e0f22c5, type: 2}
+  fireTailAudioProfile: {fileID: 0}
