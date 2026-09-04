@@ -15,7 +15,6 @@ DOOM을 기반으로 한 고전 스타일의 1인칭 슈팅게임. 개발자 3�
 <img width="640" height="380" alt="MOOD_게임플레이" src="https://github.com/user-attachments/assets/042f3873-9e88-4c3b-91c5-2e25654b4a13" />
 
 ## 유의사항
-
 본 프로젝트는 Gitignore 설정으로 외부 에셋(External Assets)이 포함되어 있진 않습니다. 유니티 에디터를 통해서 프로젝트를 열려면 반드시 외부 에셋이 있어야 합니다.
 필요 시 아래의 이메일을 통해 요청해주시면 감사합니다.
 
